@@ -3,7 +3,7 @@ import Circle from './Circle.js'
 import Line from './Line.js'
 import registerListeners from './registerListeners.js'
 
-const { canvas, ctx } = new Canvas()
+const { canvas, ctx } = new Canvas({ background: '#232332' })
 const circles = new Circle(ctx, 1)
 const lines = new Line(ctx)
 
